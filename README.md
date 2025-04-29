@@ -56,8 +56,9 @@ docker build -t base_web .
 
 Стартуем образину:
 ```bash
-docker run -p 8080:8000 base_web
+docker run -p 8000:8000 base_web
 ```
-
+# Тестовый роут
+`http://localhost:8000/healthcheck`
 
 
